@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>blockquote引用语法笔记</title>
+      <link href="/2022/05/27/1/"/>
+      <url>/2022/05/27/1/</url>
+      
+        <content type="html"><![CDATA[<p>本篇文章的主要目的是为了防止自己忘记markdown语法，<font size=8 color=red>如果您不感兴趣请勿观看</font>，您需要的作业在上面</p><h1 id="blockquote语法基本格式"><a href="#blockquote语法基本格式" class="headerlink" title="blockquote语法基本格式:"></a>blockquote语法基本格式:</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;blockquote&gt;</span><br><span class="line">content(内容)</span><br><span class="line">&lt;/blockquote&gt;</span><br></pre></td></tr></table></figure><p>效果如下（此处使用的是单个引用样式，不受全局影响）</p><blockquote>123ABC一二三</blockquote><p>如需更改引用左端竖线颜色可以更改默认全局颜色<br>1.进入butterfly&#x2F;source&#x2F;css，在目录下新建quote.css文件<br><img src="/2022/05/27/1/ab.png"><br>编辑文件添加以下内容<br><img src="/2022/05/27/1/c.png"><br>随后进入butterfly的配置文件，并找到inject。在head处输入css路径<br><img src="/2022/05/27/1/n.png"><br>随后全局引用就已经替代成了css文件中设置的颜色,如图</p><blockquote style="border-left-color:#c90b0b">123ABC一二三</blockquote><br>2.如需更改单个引用配色，可以输入以下代码<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;blockquote style=&quot;border-left-color:green&quot;&gt;</span><br><span class="line">AA</span><br><span class="line">&lt;/blockquote&gt;</span><br></pre></td></tr></table></figure>效果如图<blockquote style="border-left-color:green">AA</blockquote><blockquote style="border-left-color:black">AA</blockquote><h1 id="Note语法："><a href="#Note语法：" class="headerlink" title="Note语法："></a>Note语法：</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% note %&#125;</span><br><span class="line">content</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure><p>效果如图</p><div class="note flat"><p>content</p></div><p>如需更改颜色，参考以下配置</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% note blue %&#125;</span><br><span class="line">content</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure><p>如图</p><div class="note blue flat"><p>content</p></div><p>如需在note前添加小图标，参考以下配置(小图标只支持fa)</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% note blue &#x27;fab fa-cc-visa&#x27; %&#125;</span><br><span class="line">我是Visa卡，国内用户的痛</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure><p>效果</p><div class="note blue icon flat"><i class="note-icon fab fa-cc-visa"></i><p>我是Visa卡，国内用户的痛</p></div><p>如果不需要图标直接添加no-icon即可</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% note blue no-icon %&#125;</span><br><span class="line">我是Visa卡，国内用户的痛</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure><p>效果</p><div class="note blue no-icon flat"><p>我是Visa卡，国内用户的痛</p></div><h1 id="附加"><a href="#附加" class="headerlink" title="附加:"></a>附加:</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% note warning %&#125;</span><br><span class="line">WARNING</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure><div class="note warning flat"><p>WARNING</p></div><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% note info %&#125;</span><br><span class="line">info</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure><div class="note info flat"><p>info</p></div>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>5/27英语作业</title>
+      <link href="/2022/05/24/post-name/"/>
+      <url>/2022/05/24/post-name/</url>
+      
+        <content type="html"><![CDATA[<h1 id="在无突发情况下以后英语作业就发布在此网站，如果出现任何问题请前往之前的网站"><a href="#在无突发情况下以后英语作业就发布在此网站，如果出现任何问题请前往之前的网站" class="headerlink" title="在无突发情况下以后英语作业就发布在此网站，如果出现任何问题请前往之前的网站"></a>在无突发情况下以后英语作业就发布在此网站，如果出现任何问题请前往之前的网站</h1><br><br><p>A:ACD<br><br><br>B:BCDA<br><br><br>C:DCCB</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
