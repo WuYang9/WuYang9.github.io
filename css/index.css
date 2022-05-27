@@ -1512,7 +1512,7 @@ img:not([src]) {
 blockquote {
   margin: 0 0 20px;
   padding: 12px 15px;
-  border-left: 3px solid #49b1f5;
+  border-left: 3px solid #b82020;
   background-color: var(--blockquote-bg);
   color: var(--blockquote-color);
 }
