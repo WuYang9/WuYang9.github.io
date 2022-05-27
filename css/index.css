@@ -1509,10 +1509,10 @@ img:not([src]) {
 .img-alt:hover {
   text-decoration: none !important;
 }
-blockquote {
+blockquote1 {
   margin: 0 0 20px;
   padding: 12px 15px;
-  border-left: 3px solid #b82020;
+  border-left: 3px solid #15cf0f;
   background-color: var(--blockquote-bg);
   color: var(--blockquote-color);
 }
