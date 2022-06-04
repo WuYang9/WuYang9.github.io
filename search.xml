@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>Ubuntu安装open vm tools</title>
+      <link href="/2022/06/04/tools/"/>
+      <url>/2022/06/04/tools/</url>
+      
+        <content type="html"><![CDATA[<h1 id="1-用Vmware自带的iso安装"><a href="#1-用Vmware自带的iso安装" class="headerlink" title="1.用Vmware自带的iso安装"></a>1.用Vmware自带的iso安装</h1><p>点击编辑虚拟机设置<br><img src="/2022/06/04/tools/1.png"><br>将CD&#x2F;DVD设置为自动检测(如果没有CD&#x2F;DVD选项请自行添加)<br><img src="/2022/06/04/tools/2.png"><br>启动虚拟机后找到挂载的光驱即可安装</p><h1 id="2-用open-vm-tools安装"><a href="#2-用open-vm-tools安装" class="headerlink" title="2.用open-vm-tools安装"></a>2.用open-vm-tools安装</h1><p>在Ubuntu中打开终端</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt update</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install open-vm-tools</span><br></pre></td></tr></table></figure><p>如需启用双向拖放文件需安装open-vm-tools-desktop</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install open-vm-tools-desktop</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>blockquote引用语法笔记</title>
       <link href="/2022/05/27/1/"/>
       <url>/2022/05/27/1/</url>
